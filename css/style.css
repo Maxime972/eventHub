@@ -2,3 +2,19 @@ body * {
   border: dashed 1px black;
   padding: 5px;
 }
+
+header {
+  border: dashed 1px green;
+}
+
+.carte {
+  border: dashed 1px blue;
+}
+
+section {
+  border: dashed 1px red;
+}
+
+footer {
+  border: dashed 1px rgb(156, 22, 218);
+}
