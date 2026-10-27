@@ -146,11 +146,18 @@
                     <h3>Je participe</h3>
                     <p>Les champs marqués d'un * sont obligatoires.</p>
                     <Label for="name">Nom*</Label>
-                    <input type="text" placeholder="Votre nom">
+                    <input type="text" placeholder="Votre nom" required>
                     <label for="mail">Adresse e-mail*</label>
-                    <input type="email" placeholder="vous@exemple.fr">
+                    <input type="email" placeholder="vous@exemple.fr" required>
                     <label for="event"> Evenement préféré</label>
-                    <select name="event" id="event">
+                    <select name="event" id="event" required>
+                        <option value="">Choisir un événement</option>
+                        <option value="Electro">Electro Night</option>
+                        <option value="Food">Food Festival</option>
+                        <option value="Gaming">Gaming Arena</option>
+                        <option value="Jazz">Jazz Sunset</option>
+                        <option value="Street">Street Food Party</option>
+                        <option value="Retro">Retro Games Day</option>
                     </select>
                     <button>Envoyer mon inscription <img src="" alt=""></button>
                 </form>
