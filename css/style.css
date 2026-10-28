@@ -1,24 +1,60 @@
-body * {
-  border: dashed 1px black;
-  padding: 5px;
+body {
+  background-color: #f8f9fc;
+  /*border: dashed 1px black;
+  padding: 5px;*/
 }
 
 header {
   border: dashed 1px green;
 }
 
-.carte {
-  border: dashed 1px blue;
-}
-
 section {
   border: dashed 1px red;
+}
+
+/* CARTES */
+
+#activite {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.carte {
+  margin: 20px;
+  box-shadow: 10px 10px 30px rgba(128, 128, 128, 0.25);
+  background-color: white;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.carte div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgActivite {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.texteCarte {
+  width: 90%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.texteCarte div {
+  border-top: solid 1px rgba(128, 128, 128, 0.25);
+  color: #7146e8;
+  font-weight: 700;
 }
 
 /* FOOTER */
 
 footer {
-  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  border-top: 1px solid rgba(128, 128, 128, 0.25);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
